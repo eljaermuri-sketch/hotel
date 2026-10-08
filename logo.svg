@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Hotel Gran Estación">
+  <defs>
+    <clipPath id="circulo"><circle cx="50" cy="50" r="50"/></clipPath>
+  </defs>
+  <!-- fondo blanco del círculo -->
+  <circle cx="50" cy="50" r="50" fill="#FFFFFF"/>
+  <g clip-path="url(#circulo)">
+    <!-- techo rojo: arco superior con el borde interno redondeado -->
+    <path d="M-20,-20 H120 V13.9 H77.7 V13.6 Q77.7,8.6 71.5,8.6 H28.5 Q22.3,8.6 22.3,13.6 V13.9 H-20 Z" fill="#B52324"/>
+    <!-- costado izquierdo -->
+    <path d="M-14,18.85 L11.78,18.85 L11.78,67.28 L8.64,70.94 L-14,70.94 Z" fill="#B52324"/>
+    <!-- costado derecho (franja delgada junto al azul) -->
+    <path d="M87.96,18.85 L96.86,18.85 L87.96,32.98 Z" fill="#B52324"/>
+    <!-- parabrisas -->
+    <rect x="24.35" y="31.41" width="50.26" height="16.49" fill="#B52324"/>
+    <!-- parrilla -->
+    <rect x="35.6" y="62.83" width="28.8" height="28.01" rx="2.36" fill="none" stroke="#B52324" stroke-width="1.7"/>
+    <path d="M35.6,69.63 H64.4 M35.6,76.44 H64.4 M35.6,83.51 H64.4" stroke="#B52324" stroke-width="1.7"/>
+    <!-- rueda -->
+    <ellipse cx="20.42" cy="86.65" rx="4.71" ry="2.49" transform="rotate(22 20.42 86.65)" fill="#B52324"/>
+    <!-- franja azul: tono oscuro y tono brillante (por encima de la parrilla) -->
+    <path d="M99.74,16.23 L101.31,16.23 L64.79,106.54 L43.19,106.54 Z" fill="#0B2380"/>
+    <path d="M101.31,16.23 L117.02,16.23 L117.02,106.54 L64.79,106.54 Z" fill="#1F48C8"/>
+  </g>
+</svg>
